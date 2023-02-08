@@ -10,6 +10,6 @@ public class SubsetOfSquaresCreator {
             treeSet.add(value * value);
         }
 
-        return treeSet.subSet(lowerBound, upperBound);
+        return treeSet.subSet(lowerBound, true, upperBound, true);
     }
 }

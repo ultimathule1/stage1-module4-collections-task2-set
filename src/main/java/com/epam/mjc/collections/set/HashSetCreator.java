@@ -17,6 +17,7 @@ public class HashSetCreator {
                     hashSet.add(temp);
                     temp /= 2;
                 }
+                hashSet.add(temp);
             } else {
                 hashSet.add(temp);
                 hashSet.add(2 * temp);
