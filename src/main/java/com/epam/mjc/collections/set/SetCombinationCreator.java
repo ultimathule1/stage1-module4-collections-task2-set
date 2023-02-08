@@ -1,6 +1,5 @@
 package com.epam.mjc.collections.set;
 
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -11,6 +10,7 @@ public class SetCombinationCreator {
         for (String temp_str : firstSet) {
             if (secondSet.contains(temp_str) && !(thirdSet.contains(temp_str))) {
                 str.add(temp_str);
+            }
         }
 
         for (String tempStr : thirdSet) {
